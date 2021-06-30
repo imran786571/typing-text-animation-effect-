@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: consolas;
+}
+
+.main_div {
+    display: grid;
+    /* place-content: center; */
+}
+
+h1 {
+    animation: type 3s steps(22) infinite ;
+    width: 22ch;
+    overflow: hidden;
+    border-right: 4px solid black;
+    white-space: nowrap;
+}
+
+@keyframes type {
+    0% {
+        width: 0ch;
+    }
+    100% {
+        width: 22ch;
+    }
+}
